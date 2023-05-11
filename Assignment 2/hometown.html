@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Hometown</title>
+  <link rel="stylesheet" href="CSSite/style.css">
+  <l
+</head>
+<body>
+  <header>
+    <h1>My Hometown</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobby.html">Hobby</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome to My Hometown!</h2>
+      <p>My hometown is a small city located in the north of the country. It has a population of around 100,000 people and is known for its beautiful parks and gardens.</p>
+      <img id="home-image" src="./images/hometwon.jpg" alt="My Hometown" style="width: 50%; height: auto;">
+      <button onclick="changeImage()">Change Image</button>
+    </section>
+      
+    <section>
+      <h2>Things to Do</h2>
+      <ul id="things-to-do">
+        <li>Visit the Botanical Garden</li>
+        <li>Take a bike ride along the river</li>
+        <li>Go to the local farmer's market</li>
+      </ul>
+      <button onclick="changeThingsToDo()">Change Things to Do</button>
+    </section>
+    
+    <section>
+      <h2>Local Cuisine</h2>
+      <p>My hometown is famous for its delicious street food. Some popular dishes include:</p>
+      <ol id="local-cuisine">
+        <li>Taco stands</li>
+        <li>Hamburger carts</li>
+        <li>Hotdog stands</li>
+      </ol>
+      <button onclick="changeLocalCuisine()">Change Local Cuisine</button>
+    </section>
+    
+    <section>
+      <h2>Check for More</h2>
+      <button onclick="toggleAccordion()">More Info</button>
+      <div id="accordion-content" style="display: none;">
+        <h3>Things to Do</h3>
+        <ul>
+          <li>Visit the Botanical Garden</li>
+          <li>Take a bike ride along the river</li>
+          <li>Go to the local farmer's market</li>
+        </ul>
+        <h3>Local Cuisine</h3>
+        <ol>
+          <li>Taco stands</li>
+          <li>Hamburger carts</li>
+          <li>Hotdog stands</li>
+        </ol>
+      </div>
+    </section>
+    
+
+  </main>
+  <footer>
+    <p>&copy; 2023 My Hometown</p>
+  </footer>
+  <script src="../JSSite/script.js"></script>
+</body>
+</html>
